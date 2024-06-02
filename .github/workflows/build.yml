@@ -139,5 +139,6 @@ jobs:
           removeArtifacts: true
           tag: ${{matrix.version}}
           commit: master
-          token: ${{ secrets.PERSONAL_TOKEN }}
+          # token: ${{ secrets.PERSONAL_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           artifacts: ./Firmware/*.zip

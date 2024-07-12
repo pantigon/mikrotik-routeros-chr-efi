@@ -1,4 +1,4 @@
-name: build ARM
+name: build ARM PATCH
 
 on:
   workflow_dispatch:

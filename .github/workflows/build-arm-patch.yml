@@ -57,7 +57,7 @@ jobs:
 
       - name: Download
         run: |
-          curl -skL --retry 3 --connect-timeout 3 -o chr.img.zip https://github.com/elseif/MikroTikPatch/releases/download/7.15.2-arm64/chr-7.15.2-arm64.img.zip
+          curl -skL --retry 3 --connect-timeout 3 -o chr.img.zip https://github.com/elseif/MikroTikPatch/releases/download/7.15.3-arm64/chr-7.15.3-arm64.img.zip
           unzip chr.*.zip
           rm -rf chr.*.zip
 
